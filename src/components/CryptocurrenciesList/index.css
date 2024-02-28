@@ -1,0 +1,77 @@
+/* Write your CSS code here */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.cardMain {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.crypthead {
+  color: #00e7ff;
+  font-family: Roboto;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.bitcoinimg {
+  align-self: center;
+  height: 250px;
+}
+.imgCont {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+/*inner card*/
+
+.innerCard {
+  border: solid 3px #00e7ff;
+  width: 100%;
+  border-radius: 5px;
+}
+.main-table-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.cointypehead {
+  color: #00e7ff;
+  font-family: Roboto;
+  font-size: 20px;
+}
+.usdAndEuroCont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blue;
+  width: 20%;
+}
+.usd {
+  color: #00e7ff;
+  font-family: Roboto;
+  font-size: 15px;
+}
+.euro {
+  color: #00e7ff;
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.spinCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.ullcont {
+  padding: 0px;
+}

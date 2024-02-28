@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.mainrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logoAndNameCont {
+  display: flex;
+  align-items: center;
+}
+.listlogo {
+  height: 25px;
+  margin-right: 10px;
+}
+.curencyname {
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+}
+.usdvalueAndEurovalueContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+}
